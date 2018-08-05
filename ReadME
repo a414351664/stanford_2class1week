@@ -1,0 +1,27 @@
+first_initial.py	关于三种不同的初始化，两个大圆圈的数据集
+用he初始化效果很好，99和96
+用随机初始化　也不错，可能网络层数不够大，无法显示he的优势
+second_reg.py		法国踢足球，不同的正则化以及dropout
+
+learning_rate = 0.03, iter = 15000
+无lambd 和 dropout （本来就没有过拟合所以不需要加）
+train Accuracy: 0.933649289099526
+test Accuracy: 0.945
+
+有lambd 和 无dropout
+train Accuracy: 0.924
+test Accuracy: 0.935
+
+
+learning_rate = 0.3, iter = 15000
+无lambd 和 dropout 
+train Accuracy: 0.94
+test Accuracy: 0.915
+
+有lambd 和 无dropout
+train Accuracy: 0.938
+test Accuracy: 0.93
+
+无lambd 和 有dropout
+train Accuracy: 0.928
+test Accuracy: 0.95
